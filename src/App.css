@@ -1,0 +1,14 @@
+body{
+    font-family: sans-serif;
+}
+
+*{
+    margin: 0;
+}
+
+:root{
+    --bg-color: linear-gradient(135deg,rgba(255, 0, 153, 0.9) 20%,rgba(255, 55, 0, 0.7));
+    --s-bg-color:rgba(255, 0, 0,0.7);
+    --tile-bg-color: rgba(198, 194, 194, 0.3);
+    --hover-bg-color:linear-gradient(135deg,rgba(255, 55, 0) 20%,rgba(255, 0, 153, 0.4));
+}

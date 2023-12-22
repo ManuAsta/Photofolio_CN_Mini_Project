@@ -1,0 +1,77 @@
+.album-layout{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.albumContainer{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    gap: 20px;
+}
+
+.album{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color:var(--tile-bg-color);
+    justify-content: space-around;
+    border-radius: 8px 8px 0 0;
+    padding: 5px;
+    margin-bottom:20px;
+}
+
+.album:hover{
+   cursor: pointer;
+   background: var(--bg-color);
+   color: white;
+   transition:all 0.5s;
+}
+
+.album img{
+    background:white;
+    border-radius: 2%;
+}
+
+.album h4{
+    margin: 0;
+    padding-top: 4px;
+    text-align: center;
+    width: 90%;
+}
+
+
+/*heading and searching*/
+
+.headingBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addButton{
+    background: var(--bg-color);
+    color: white;
+    box-shadow: 0 0 3px 0.2px var(--bg-color);
+    border: none;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.cancel{
+    background: var(--s-bg-color);
+    color: white;
+    box-shadow: 0 0 3px 0.2px var(--bg-color);
+    border: none;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5%;
+    cursor: pointer;
+}
