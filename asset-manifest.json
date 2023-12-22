@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Photofolio_CN_Mini_Project/static/css/main.56410721.css",
+    "main.js": "/Photofolio_CN_Mini_Project/static/js/main.9a06eb91.js",
+    "index.html": "/Photofolio_CN_Mini_Project/index.html",
+    "main.56410721.css.map": "/Photofolio_CN_Mini_Project/static/css/main.56410721.css.map",
+    "main.9a06eb91.js.map": "/Photofolio_CN_Mini_Project/static/js/main.9a06eb91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56410721.css",
+    "static/js/main.9a06eb91.js"
+  ]
+}
